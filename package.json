@@ -1,0 +1,17 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "description": "ejemplo de deploy con parcel",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "author": "Karen Brito <savaraguz@.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4"
+  }
+}
